@@ -425,6 +425,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.9.3"
+  fluffybox:
+    dependency: transitive
+    description:
+      name: fluffybox
+      sha256: "80e7f029e265e85d0dd30da09d5b9ef0077238c62675d69d30c4f829aadaefd0"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.2"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -895,6 +903,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
+  idb_shim:
+    dependency: "direct main"
+    description:
+      name: idb_shim
+      sha256: e22cbec15c3732ce53ad79927f106e7be7d4a66f836eb6270b51450c15bd7b84
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.3.1"
   image:
     dependency: transitive
     description:
@@ -1136,10 +1152,11 @@ packages:
   matrix:
     dependency: "direct main"
     description:
-      name: matrix
-      sha256: "8fa5d10ca27880fbf98143a36099f4d610d4772f847e6d97fa94dc20c11e450e"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: "krille/new-fluffybox"
+      resolved-ref: "257d1b3a1a9e57bb39ef4aef3ca69735dc8fc3fc"
+      url: "https://github.com/famedly/matrix-dart-sdk.git"
+    source: git
     version: "0.22.2"
   matrix_api_lite:
     dependency: transitive
@@ -1597,6 +1614,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.3.2"
+  sembast:
+    dependency: transitive
+    description:
+      name: sembast
+      sha256: "85ff944434f7b566fdc388be4f85b23e954736b7d6e51f965f4f419d966c15b1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.5.0+1"
   sentiment_dart:
     dependency: transitive
     description:
@@ -1699,7 +1724,7 @@ packages:
     source: hosted
     version: "1.10.0"
   sqflite:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: sqflite
       sha256: "591f1602816e9c31377d5f008c2d9ef7b8aca8941c3f89cc5fd9d84da0c38a9a"
@@ -1714,6 +1739,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.5.0"
+  sqflite_common_ffi:
+    dependency: "direct main"
+    description:
+      name: sqflite_common_ffi
+      sha256: "0d5cc1be2eb18400ac6701c31211d44164393aa75886093002ecdd947be04f93"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.3.0+2"
+  sqflite_sqlcipher:
+    dependency: "direct main"
+    description:
+      name: sqflite_sqlcipher
+      sha256: "3b64cfdefe0d3f1be562f66a69b0802c1ab9298a31d41219a661534d069f9d50"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.0"
+  sqlite3:
+    dependency: transitive
+    description:
+      name: sqlite3
+      sha256: db65233e6b99e99b2548932f55a987961bc06d82a31a0665451fa0b4fff4c3fb
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.0"
   stack_trace:
     dependency: transitive
     description:
